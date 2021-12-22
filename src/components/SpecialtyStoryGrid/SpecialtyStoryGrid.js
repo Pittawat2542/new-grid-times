@@ -1,11 +1,10 @@
-import React from 'react';
-import styled from 'styled-components/macro';
-
 import { MARKET_DATA, SPORTS_STORIES } from '../../data';
 
 import MarketCard from '../MarketCard';
-import SectionTitle from '../SectionTitle';
 import MiniStory from '../MiniStory';
+import React from 'react';
+import SectionTitle from '../SectionTitle';
+import styled from 'styled-components/macro';
 
 const SpecialtyStoryGrid = () => {
   return (
@@ -49,7 +48,9 @@ const Wrapper = styled.div`
   gap: 48px;
 `;
 
-const MarketsSection = styled.section``;
+const MarketsSection = styled.section`
+
+`;
 
 const MarketCards = styled.div``;
 
